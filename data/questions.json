@@ -1,4 +1,5 @@
 [
+
   {
     "category": "Cryptography",
     "question": "What does AES stand for?",
@@ -17,6 +18,25 @@
     "answerIndex": 2
   },
   {
+    "category": "Cryptography",
+    "question": "What key length is standard for AES-256?",
+    "options": ["128 bits", "192 bits", "256 bits", "512 bits"],
+    "answerIndex": 2
+  },
+  {
+    "category": "Cryptography",
+    "question": "RSA is based on what math problem?",
+    "options": [
+      "Discrete logarithm",
+      "Integer factorization",
+      "Elliptic curves",
+      "Square roots mod n"
+    ],
+    "answerIndex": 1
+  },
+
+
+  {
     "category": "Networking",
     "question": "What port does HTTPS use by default?",
     "options": ["80", "443", "22", "25"],
@@ -24,10 +44,29 @@
   },
   {
     "category": "Networking",
-    "question": "What Layer of the OSI model does IP operate on?",
+    "question": "What OSI layer does IP operate on?",
     "options": ["Application", "Transport", "Network", "Data Link"],
     "answerIndex": 2
   },
+  {
+    "category": "Networking",
+    "question": "What does DHCP stand for?",
+    "options": [
+      "Domain Host Configuration Protocol",
+      "Dynamic Host Control Protocol",
+      "Dynamic Host Configuration Protocol",
+      "Domain Host Control Protocol"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "category": "Networking",
+    "question": "Which protocol uses UDP for DNS lookups?",
+    "options": ["TCP", "ICMP", "UDP", "HTTP"],
+    "answerIndex": 2
+  },
+
+ 
   {
     "category": "Web Security",
     "question": "Which header defends against clickjacking?",
@@ -46,8 +85,22 @@
     "answerIndex": 0
   },
   {
+    "category": "Web Security",
+    "question": "Which attack injects JavaScript into pages?",
+    "options": ["CSRF", "XSS", "SQLi", "RCE"],
+    "answerIndex": 1
+  },
+  {
+    "category": "Web Security",
+    "question": "HSTS forces websites to use which protocol?",
+    "options": ["FTP", "HTTP", "HTTPS", "SSH"],
+    "answerIndex": 2
+  },
+
+
+  {
     "category": "Forensics",
-    "question": "What tool is commonly used for packet capture analysis?",
+    "question": "What tool is used for packet capture analysis?",
     "options": ["Wireshark", "nmap", "Metasploit", "sqlmap"],
     "answerIndex": 0
   },
@@ -57,6 +110,20 @@
     "options": ["Registry hive", "Prefetch file", "Event Log", "Pagefile.sys"],
     "answerIndex": 1
   },
+  {
+    "category": "Forensics",
+    "question": "What is the file extension of an NTFS log?",
+    "options": [".evt", ".evtx", ".log", ".ftl"],
+    "answerIndex": 1
+  },
+  {
+    "category": "Forensics",
+    "question": "Which tool recovers deleted files on Linux?",
+    "options": ["extundelete", "foremost", "photorec", "dd"],
+    "answerIndex": 0
+  },
+
+
   {
     "category": "Vulnerabilities",
     "question": "What does CVE stand for?",
@@ -75,22 +142,50 @@
     "answerIndex": 1
   },
   {
+    "category": "Vulnerabilities",
+    "question": "Which vulnerability allows SQL commands in user input?",
+    "options": ["XSS", "CSRF", "SQLi", "RCE"],
+    "answerIndex": 2
+  },
+  {
+    "category": "Vulnerabilities",
+    "question": "Which mitigation thwarts stack canary bypass?",
+    "options": ["ASLR", "DEP", "Stack cookies", "NX bit"],
+    "answerIndex": 2
+  },
+
+
+  {
     "category": "Social Engineering",
     "question": "Phishing is an example of:",
-    "options": [
-      "Malware injection",
-      "Network sniffing",
-      "Social engineering attack",
-      "Privilege escalation"
-    ],
+    "options": ["Malware injection", "Network sniffing", "Social engineering attack", "Privilege escalation"],
     "answerIndex": 2
   },
   {
     "category": "Social Engineering",
-    "question": "What technique involves calling employees to extract info?",
+    "question": "What technique uses SMS as the attack vector?",
     "options": ["Vishing", "Smishing", "Pharming", "Tailgating"],
+    "answerIndex": 1
+  },
+  {
+    "category": "Social Engineering",
+    "question": "Tailgating refers to:",
+    "options": [
+      "Eavesdropping on communications",
+      "Piggybacking into a secured building",
+      "Spoofing email addresses",
+      "Shoulder surfing"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "category": "Social Engineering",
+    "question": "Baiting involves:",
+    "options": ["Leaving malware-infected media", "Sending fake invoices", "DNS poisoning", "ARP spoofing"],
     "answerIndex": 0
   },
+
+  
   {
     "category": "Miscellaneous",
     "question": "What is the default SNMP community string?",
@@ -99,8 +194,20 @@
   },
   {
     "category": "Miscellaneous",
-    "question": "Which license is most permissive for open-source?",
+    "question": "Which open-source license is most permissive?",
     "options": ["GPLv3", "MIT", "AGPL", "MPL"],
     "answerIndex": 1
+  },
+  {
+    "category": "Miscellaneous",
+    "question": "What tool automates vulnerability scanning?",
+    "options": ["Metasploit", "Nessus", "Burp Suite", "Hydra"],
+    "answerIndex": 1
+  },
+  {
+    "category": "Miscellaneous",
+    "question": "Which command lists open network ports on Linux?",
+    "options": ["ls", "ps", "netstat", "grep"],
+    "answerIndex": 2
   }
 ]
