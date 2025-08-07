@@ -9,5 +9,98 @@
       "Advanced Encoding Standard"
     ],
     "answerIndex": 0
+  },
+  {
+    "category": "Cryptography",
+    "question": "Which algorithm is NOT a hashing function?",
+    "options": ["SHA-256", "MD5", "RSA", "SHA-1"],
+    "answerIndex": 2
+  },
+  {
+    "category": "Networking",
+    "question": "What port does HTTPS use by default?",
+    "options": ["80", "443", "22", "25"],
+    "answerIndex": 1
+  },
+  {
+    "category": "Networking",
+    "question": "What Layer of the OSI model does IP operate on?",
+    "options": ["Application", "Transport", "Network", "Data Link"],
+    "answerIndex": 2
+  },
+  {
+    "category": "Web Security",
+    "question": "Which header defends against clickjacking?",
+    "options": ["X-Content-Type-Options", "Content-Security-Policy", "X-Frame-Options", "Strict-Transport-Security"],
+    "answerIndex": 2
+  },
+  {
+    "category": "Web Security",
+    "question": "What does CSRF stand for?",
+    "options": [
+      "Cross-Site Request Forgery",
+      "Client-Side Resource Fetch",
+      "Critical Security Request Framework",
+      "Cross-Script Response Forgery"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "category": "Forensics",
+    "question": "What tool is commonly used for packet capture analysis?",
+    "options": ["Wireshark", "nmap", "Metasploit", "sqlmap"],
+    "answerIndex": 0
+  },
+  {
+    "category": "Forensics",
+    "question": "Which Windows artifact tracks program execution?",
+    "options": ["Registry hive", "Prefetch file", "Event Log", "Pagefile.sys"],
+    "answerIndex": 1
+  },
+  {
+    "category": "Vulnerabilities",
+    "question": "What does CVE stand for?",
+    "options": [
+      "Common Vulnerabilities and Exposures",
+      "Certified Vulnerability Enumeration",
+      "Common Vector Exploit",
+      "Cyber Vulnerability Exchange"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "category": "Vulnerabilities",
+    "question": "Buffer overflows occur due to improper:",
+    "options": ["Memory allocation", "Input validation", "Thread synchronization", "File permissions"],
+    "answerIndex": 1
+  },
+  {
+    "category": "Social Engineering",
+    "question": "Phishing is an example of:",
+    "options": [
+      "Malware injection",
+      "Network sniffing",
+      "Social engineering attack",
+      "Privilege escalation"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "category": "Social Engineering",
+    "question": "What technique involves calling employees to extract info?",
+    "options": ["Vishing", "Smishing", "Pharming", "Tailgating"],
+    "answerIndex": 0
+  },
+  {
+    "category": "Miscellaneous",
+    "question": "What is the default SNMP community string?",
+    "options": ["public", "private", "admin", "community"],
+    "answerIndex": 0
+  },
+  {
+    "category": "Miscellaneous",
+    "question": "Which license is most permissive for open-source?",
+    "options": ["GPLv3", "MIT", "AGPL", "MPL"],
+    "answerIndex": 1
   }
 ]
